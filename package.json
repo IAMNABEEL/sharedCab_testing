@@ -1,0 +1,48 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^1.1.1",
+    "@react-native-community/datetimepicker": "^3.0.3",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/drawer": "^5.9.0",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "expo": "~38.0.8",
+    "expo-firebase-recaptcha": "^1.2.0",
+    "expo-permissions": "^9.1.0",
+    "expo-status-bar": "^1.0.2",
+    "firebase": "^7.15.5",
+    "moment": "^2.29.0",
+    "native-base": "^2.13.14",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-onboarding-swiper": "^1.1.4",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-geocoding": "^0.4.0",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-google-places-autocomplete": "^1.8.1",
+    "react-native-maps": "^0.27.1",
+    "react-native-modal-datetime-picker": "^9.0.0",
+    "react-native-paper": "^4.1.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "^10.9.3",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}
